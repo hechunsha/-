@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>烤鸭热卖中</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-size: 12px;
+        }
+        a {color:#666; text-decoration:none; }
+        a:hover{color:#C81623;}
+        h1,h2,h3{text-decoration:none;font-weight:normal;font-size:150%;}
+        .warp {
+            width: 314px;
+            height: 314px;
+            margin: 0 auto;
+            background-color: #ddd;
+            border: 1px solid #ddd;
+            position: relative;
+        }
+        .warp .content {
+            width: 279px;
+            height: 287px;
+            margin: 18px 21px 7px 15px;
+            overflow: hidden;
+            border: 1px solid orange;
+        }
+        .warp .logo {
+            position: relative;
+            top: 11px;
+            left: 21px;
+        }
+        .logo .icon1 {
+            position: absolute;
+            width: 52px;
+            height: 28px;
+            background: url(images/icons.png) no-repeat -108px 0;
+        }
+        .logo .icon2 {
+            position: absolute;
+            left: 52px;
+            width: 52px;
+            height: 28px;
+            background: url(images/icons.png) no-repeat -54px 0;
+        }
+        .warp .heitiao {
+            position: absolute;
+            width: 280px;
+            height: 34px;
+            background-color: rgba(21, 22, 31, 0.47);
+            top: 182px;
+            left: 15px;
+        }
+        .warp .heitiao a{
+            display: block;
+            margin-top: 12px;
+            margin-left: 8px;
+            color: white;
+            font-size: 1.5em;
+            font-weight: 400;
+        }
+        .content .fc {
+            margin-top: 5px;
+        }
+        .content .fr {
+            color: #222;
+            font-size: 12px;
+            margin-right: 15px;
+        }
+        .content ul{
+            list-style: none;
+        }
+        .content ul li h1 {
+            color: orange;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .content ul li .yuanjia {
+            color: #222;
+            font-size: 12px;
+            font-weight: 400;
+            text-decoration: line-through;
+        }
+        .content .jiage h1 {
+            float: left;
+             margin-top: 11px;
+            margin-left: 15px;
+        }
+        .content .jiage p{
+            float: right;
+            margin-top: 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="warp">
+     <div class="logo">
+         <span class="icon1"></span>
+         <span class="icon2"></span>
+     </div>
+     <div class="heitiao"><a href="#">阆中市七里吃货中心5楼</a></div>
+        <div class="content">
+            <ul>
+                <li>
+                    <div class="sm">
+                       <p><img src="images/kaoya.jpg" alt=""></p>
+                       <h3>【四店通用】金鸭坊烤鸭店</h3>
+                    <p class="fc"><a href="#">&nbsp;&nbsp;现金抵用一次，可全场通用,可叠加使用</a></p>
+                    </div>
+                    <div class="jiage">
+                      <h1> <span style="color: orange">￥</span>85 <span class="yuanjia">￥100</span></h1>
+                       <p class="fr">已售&nbsp;<span style="color: red;font-size: 12px;font-weight: 700;">10</span></p>
+                    </div>
+                    </li>
+             </ul>
+         </div>
+</div>
+</body>
+</html>
